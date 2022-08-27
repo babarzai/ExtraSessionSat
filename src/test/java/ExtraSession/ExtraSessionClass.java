@@ -10,5 +10,9 @@ public class ExtraSessionClass {
         WebDriver driver = new ChromeDriver();
 
         System.out.println("Extra Session GitBash - first commit");
+
+        public void getCommit(){
+            //stash stash stash
+        }
     }
 }
