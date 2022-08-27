@@ -12,5 +12,7 @@ public class ExtraSessionClass {
         System.out.println("Extra Session GitBash - first commit");
 
         //clone the project
+        
+        //sending message from gitHub remote repos
     }
 }
