@@ -15,4 +15,17 @@ public class ExtraSessionClass {
         
         //sending message from gitHub remote repos
     }
+
+    //HoverOver
+    public void hoverOverTest() {
+        driver.get("https://demo.automationtesting.in/Register.html");
+        WebElement switchTo = driver.findElement(By.xpath("//*[contains(text(),'SwitchTo')]"));
+        WebElement window = driver.findElement(By.xpath("//a[contains(text(),'Windows')]"));
+
+        Actions action = new Actions(driver);
+
+        action.moveToElement(switchTo).moveToElement(window).click().build().perform();
+
+        System.out.println("Done");
+    }
 }
