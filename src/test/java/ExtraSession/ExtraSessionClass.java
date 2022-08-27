@@ -28,4 +28,9 @@ public class ExtraSessionClass {
 
         System.out.println("Done");
     }
+    
+    public void newStuff(){
+        int sum =20; 
+        //correct one
+        {
 }
